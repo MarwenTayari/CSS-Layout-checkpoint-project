@@ -1,0 +1,438 @@
+body {
+    font-weight:400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    padding-top: 70px;
+    margin: 0;
+}/* to give some style to the body*/ 
+
+.main_header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;  
+    background: hsla(0,0%,100%,.98);
+} /* to give some style to the header*/
+
+
+.section_inner {
+    max-width: 1015px;
+    padding: 0 25px;
+    margin: 0 auto; 
+    position: relative;   
+} /* to give a size to the header*/ 
+
+.logo-docplanner {
+    width: 268px;
+    height: 33px;
+    margin-top: 10px;
+}/* to give a size to the logo of the page*/
+
+.main_header h1 {
+    margin: 2px 0 0;
+    line-height: 68px;
+    display: inline-block;
+    position: relative;
+} /* to give a size to h1 container the logo of the web page*/ 
+
+.main_nav {
+    position: relative;
+    float: right;   
+}  /* to give float right to the nav bar*/  
+
+.main_menu {
+    list-style: none;
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 2em;
+    padding: 1.33em 0;
+    margin: 0 auto;
+} /* to give a size to main_menu*/  
+
+.main_menu a {
+    color: #ababab;
+    display: block;
+    text-decoration: none;
+    padding: 0 .6em;  
+} /* to give a size and color to the element of the nav bar*/  
+
+.main_header li {
+    display: inline-block; 
+}
+
+/* main elements*/  
+.lead {
+    margin: 2.0625rem auto 3.75rem auto;
+} 
+
+.lead__logo {
+    display: block;
+    margin: 0 auto;
+}/* To center the logo */
+
+.lead h1 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.125rem;
+    color: #00b39b;
+} /* To give size and color to the first title of the web page */ 
+
+h1, h2, h3, h4 {
+    margin: 1em 0;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+} /* To give size and color to each title of the web page */ 
+
+.section__inner {
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+} /* To give a size and position to the section */  
+
+.grid {
+    margin: 0 -10px;
+} 
+
+div {
+    display: block;
+} 
+
+[class*=col-] {
+    float: left;
+    min-height: 1px;
+    padding: 10px;
+} /* To give position to paragraphs */  
+
+.col-2 {
+    width: 45%;
+} 
+
+.col-3 {
+    width: 31%;
+}
+
+.services__item--marketplace {
+    background: #00ccb1;
+} /* To give color to colum 1 */   
+
+.services__item--saas {
+    background: #3d83df;
+} /* To give color to colum 2 */ 
+
+.services__item--clinics {
+    background: #1b2734;
+} /* To give color to colum 3 */ 
+
+.services__item {
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} /* To give styles to colum*/  
+ 
+.services .fade-elements .fade-elements__visible .services__item>* {
+    opacity: 1;
+    transform: translate(0);
+}
+
+.services__item h1 {
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #fff;
+    margin: .3em 0;
+} /* To give style h1 tiltes*/   
+
+.services__item h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+} /* To give style h2 tiltes*/    
+
+.services .style-select:last-child {
+    margin-bottom: 35px;
+}
+
+.services .style-select {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    outline: 0;
+    background: none;
+    border: 0;
+    color: #fff;
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: .04em;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.brands {
+    margin: 2.5rem auto 3.125rem;  
+} 
+
+.brands h1 {
+    float: left;
+    width: 25%;
+    font-size: 1.625em;
+    margin: .25em 0 .35em;
+    padding-right: 1em;
+} /* To give style to h1 tilte*/   
+
+.brands__logos a svg {
+    height: 20px;
+    width: auto;
+    max-width: 100%;
+    padding-left: 10px;
+}
+
+.brands__logos li {
+    font-size: 1rem;
+    display: inline-block;
+    width: 160px;
+    padding: 5px 0;
+}
+
+.brands__logos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 0;
+    width: 67%;
+    list-style: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+.stats__item {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
+    height: 250px;
+    text-align: center;
+    padding: 15px;
+    font-size: .8125em;
+} /* To give style to boxes*/   
+
+.stats {
+    background: #e5faf8;
+    background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+    padding: 1.875em 0 .625em;
+    overflow: hidden;
+    margin: 3.125rem auto 5.5rem;
+} /* To give style to stats section*/    
+
+.office__image img {
+    display: block;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+.offices {
+    margin-top: 5.5rem;
+    margin-bottom: 5rem;
+} 
+
+a {
+    text-decoration: none;
+    color: #3d83df;
+    outline: 0;
+    transition: all .2s ease 0s;
+}
+
+.offices__header {
+    max-width: 460px;
+    margin: 0 auto 4.1875rem;
+    font-size: .875em;
+    text-align: center;
+}
+
+.slick-list, .slick-slider {
+    position: relative;
+    display: block;
+}
+
+.slick-next, .slick-prev {
+    position: absolute;
+    display: block;
+    height: 20px;
+    width: 20px;
+    line-height: 0;
+    font-size: 0;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0;
+    border: none;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+    margin-left: 0px;
+}
+
+.office {
+    padding: 10px;
+}
+
+.slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    display: none;   
+    width: 30%;
+}
+
+.office .btn {
+    float: right;
+}
+
+.offices__slider{
+display: flex;
+flex-wrap: wrap;
+}
+
+
+dl, menu, ol, ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.domain-switcher {
+    z-index : 40;
+}
+
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    margin: 0;
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+}
+
+.btn--small {
+    font-size: .625rem;
+    padding: 1em 1.5em;
+    margin-top: 7px;
+}
+
+svg {
+    fill: hsla(0, 0%, 67%, .7);
+}
+
+.join-us {
+    margin: 5rem auto;
+}
+
+.join-us__header {
+    max-width: 520px;
+    margin: 0 auto;
+    font-size: .875em;
+    text-align: center;
+}
+
+.main-footer {
+    border-top: 1px solid #eef2f2;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 12px;
+}
+
+.office__inner {
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.03);
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 311px;
+    z-index: 2;
+    position: relative;
+    display: block;
+    color: #747474;
+}
+
+::selection {
+    background: #00b39b;
+    color: #fff;
+    text-shadow: none;
+} /*to give a color to selection*/
+
+@media screen and (max-width: 576px) {
+    .col-3 {
+        width: 100%;
+    }
+    .brands > h1 {
+        width: 100%;
+    }
+    .col-2 {
+        width: 100%;
+    }
+    .slick-slide {
+        width: 100%;
+    }
+  } 
+
+
+  @media (min-width: 576px) and (max-width: 992px) 
+  { 
+      .col-3 {
+          width: 30%;
+      }
+      .brands > h1 {
+          width: 40%;
+      }
+      .col-2 {
+          width: 100%;
+      }
+      .slick-slide {
+          width: 47%;
+      }
+    } 
