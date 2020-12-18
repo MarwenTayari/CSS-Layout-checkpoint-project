@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap" rel="stylesheet">
     <title>Docplanner Group</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.docplanner.com/favicon/favicon-32x32.png">
   </head>
 
   <body id class="defered">
@@ -20,9 +21,20 @@
         </a>  <!--This is the logo of the page--> 
         <nav class="main_nav">
           <ul class="main_menu">
-            <li><a href="Index.html">About us</a></li>
-            <li><a href="https://www.docplanner.com/career">Career</a></li>
-            <li ><a href=""> Departments</a></li>
+            <li><a href="Index.html" id="Is-current">About us</a></li>
+            <li><a href="https://www.docplanner.com/career" class="hovercolor">Career</a></li>
+            <li class="dropdown">
+              <a href="" class="hovercolor"> Departments</a>
+              <div class="dropdown-content">
+                <ul id="textposition">
+                  <li><a href="/department?dep=marketing" class="hovercolor">Marketing &amp; PR</a></li>
+                  <li><a href="/department?dep=customer" class="hovercolor">Customer Success &amp; Sales</a></li>
+                  <li><a href="/department?dep=it" class="hovercolor">IT, Product, Data</a></li>
+                  <li><a href="/department?dep=finance" class="hovercolor">Finance &amp; Administration</a></li>
+                  <li><a href="/department?dep=hr" class="hovercolor">HR &amp; more</a></li>
+                </ul>
+              </div>
+            </li>
           </ul> <!--This is the Nav bar of the page--> 
         </nav>
       </div>
@@ -186,17 +198,17 @@
         </li>
         <li class="brands__logos tuotempo">
           <a href="https://www.tuotempo.com/?__hstc=94104962.04b4640932b74f1ec092f2a1a87e0a5f.1607339774254.1607532933362.1607590866457.18&amp;__hssc=94104962.1.1607590866457&amp;__hsfp=3180928562" target="_blank">
-            <img src="https://www.docplanner.com/logos/logo-tuotempo.svg">
+            <img src="https://www.docplanner.com/logos/logo-tuotempo.svg" >
           </a>
         </li>
         <li class="brands__logos gipo">
           <a href="https://www.gipo.it/?__hstc=94104962.04b4640932b74f1ec092f2a1a87e0a5f.1607339774254.1607532933362.1607590866457.18&amp;__hssc=94104962.1.1607590866457&amp;__hsfp=3180928562" target="_blank">
-            <img src="https://www.docplanner.com/logos/logo-gipo.svg">
+            <img src="https://www.docplanner.com/logos/logo-gipo.svg" >
           </a>
         </li>
         <li class="brands__logos clinicloud">
           <a href="https://clinic-cloud.com/" target="_blank">
-            <img src="https://www.docplanner.com/logos/logo-clinicloud.svg">
+            <img src="https://www.docplanner.com/logos/logo-clinicloud.svg" >
           </a>
         </li>
       </ul>
@@ -205,6 +217,7 @@
     <section class="stats">   <!--This is the stats section--> 
       <div class="section__inner">
         <div class="grid">
+          
           <header class="col-2 stats__header">
             <h1>
               The world's biggest
